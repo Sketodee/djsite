@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8" lang="en">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Palanquin+Dark&family=Rock+Salt&family=Sanchez&display=swap" 
+        rel="stylesheet">     
+    </head>
+    <body> 
+        <header>
+            <img class="menubar" onClick = "toggleNav()" style = "float:left" src="images/menu.svg"> 
+            <h1>  DJ LOREM </h1>
+        </header>
+
+        <section> 
+            <div class="navbar " >
+                <a href="index.html" class="navbar__link"> HOME </a>
+                <a href="about.html" class="navbar__link"> ABOUT </a>
+                <a href="contact.html" class="navbar__link">  SERVICES </a>
+                <a href="blog.html" class="navbar__link">  BLOG </a>
+                <a href="blog.html" class="navbar__link">  MIXTAPES </a>
+                <a href="blog.html" class="navbar__link">  CONTACT </a>
+            </div>
+        </section>
+
+        <section class="mainsection"> 
+            <div class = "mainsub">
+                <div class="tour"> 
+                   <div class="tour1"> 
+                        <h1> <span> <p>The Party Turner</p> </span> OFFICIAL DJ LOREM </h1>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mainsection3"> 
+            <div class="tour2"> 
+                   <div class="tour3"> 
+                       <p> New Release</p>
+                        <h1> The Ascension Mixtape  </h1>
+                   </div>
+                   <div class="press"> 
+                        <p> DOWNLOAD </p>
+                   </div>
+                   <div class="streaming">
+                        <img class="app" src="images/deezer.svg">
+                        <img class="app" src="images/youtube.svg">
+                        <img class="app" src="images/spotify.svg">
+                        <img class="app" src="images/soundcloud.svg">
+                        <img class="app" src="images/audiomack.png">
+                   </div>
+            </div>
+        </section>
+
+        <section class="mainsection2"> 
+            <div class="part1">
+                <div class="subpart1"> 
+                    <img class = "djlogo" src="images/listening.svg"> 
+                </div>
+                <h5> Music Recording </h5>
+                <p> Capitalize on low hanging fruit to identify a ballpark
+                    when added activity is better test override 
+                </p>
+            </div>
+            <div class="part2"> 
+                <div class="subpart1"> 
+                    <img class = "djlogo" src="images/vinyl.svg"> 
+                </div>
+                <h5> Music Recording </h5>
+                <p> Nanotechnology immersion along the information highway 
+                    will close the loop on focusing solely on the bottom
+                </p>
+            </div>
+            <div class="part3">
+                <div class="subpart1"> 
+                    <img class = "djlogo" src="images/soundmixer.svg"> 
+                </div>
+                <h5> Music Recording </h5>
+                <p> Bring to the table win win survival strategies 
+                    to ensure proactive domination to the end </p>
+            </div>
+        </section>
+
+        <footer> 
+            <div class="foot"> 
+                <p> copyright, 2020</p>
+                <p> built by Sket</p>
+            </div>
+        </footer>
+        <script> 
+            function toggleNav() {
+                document.querySelector(".navbar").classList.toggle("navbar--open");
+            }
+        </script>
+
+    </body>
+</html>
